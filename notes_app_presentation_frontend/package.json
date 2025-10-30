@@ -4,15 +4,15 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
-    "dev": "slidev --open --remote",
+    "dev": "slidev --remote",
     "export": "slidev export",
     "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore .",
     "lint:fix": "eslint --ext .js,.ts,.vue --ignore-path .gitignore . --fix"
   },
   "dependencies": {
-    "@slidev/cli": "^51.4.0",
-    "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest",
+    "@slidev/cli": "^0.49.31",
+    "@slidev/theme-default": "^0.22.2",
+    "@slidev/theme-seriph": "^0.22.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {

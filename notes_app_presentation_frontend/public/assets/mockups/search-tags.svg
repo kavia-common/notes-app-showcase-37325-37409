@@ -1,20 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560">
-  <defs>
-    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#eff6ff"/>
-      <stop offset="1" stop-color="#ffffff"/>
-    </linearGradient>
-  </defs>
-  <rect width="100%" height="100%" fill="url(#g3)"/>
-  <rect x="40" y="40" width="820" height="480" rx="16" fill="#ffffff" stroke="#dbeafe"/>
-  <rect x="60" y="70" width="640" height="36" rx="8" fill="#f3f4f6"/>
-  <rect x="60" y="120" width="100" height="28" rx="14" fill="#dbeafe" stroke="#bfdbfe"/>
-  <rect x="170" y="120" width="80" height="28" rx="14" fill="#fee7c2" stroke="#fcd34d"/>
-  <rect x="260" y="120" width="90" height="28" rx="14" fill="#fee2e2" stroke="#fecaca"/>
-  <rect x="60" y="170" width="760" height="56" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
-  <rect x="60" y="236" width="760" height="56" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
-  <rect x="60" y="302" width="760" height="56" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
-  <text x="60" y="520" font-family="Inter, Arial" font-size="14" fill="#6b7280">
-    Search & tags mockup • Ocean Professional
-  </text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960" height="540" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="540" fill="#F3F4F6"/>
+  <rect x="40" y="40" width="880" height="120" rx="16" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <rect x="60" y="70" width="400" height="26" rx="6" fill="#DBEAFE"/>
+  <rect x="60" y="110" width="120" height="28" rx="14" fill="#2563EB"/>
+  <rect x="190" y="110" width="120" height="28" rx="14" fill="#F59E0B"/>
+  <rect x="320" y="110" width="120" height="28" rx="14" fill="#EF4444"/>
+  <text x="64" y="128" font-family="Arial" font-size="12" fill="#FFFFFF">search</text>
+  <text x="198" y="128" font-family="Arial" font-size="12" fill="#111827">tags</text>
+  <text x="330" y="128" font-family="Arial" font-size="12" fill="#FFFFFF">filter</text>
 </svg>

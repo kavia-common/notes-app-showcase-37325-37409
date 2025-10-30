@@ -9,13 +9,12 @@ class: text-left
 mdc: true
 transition: slide-left
 fonts:
-  sans: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial
-  mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+  sans: "Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial"
+  mono: "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 css: |
   @import "./style.css";
 ---
 
-layout: cover
 class: with-hero-glow
 transition: fade-out
 ---
@@ -48,7 +47,7 @@ class: notes-bg
 - Distraction-free editing with markdown support
 - Real-time sync and collaboration
 - Secure by default with offline-first behavior
-<!-- v-click -->
+
 <div class="card mt-2" style="background:linear-gradient(135deg,#eff6ff,#ffffff);border-color:#dbeafe;">
   <div class="eyebrow" style="background:#DBEAFE;color:#1E3A8A;border-color:#BFDBFE;">Ocean Professional</div>
   <div class="grid-2">
@@ -197,7 +196,7 @@ transition: fade-out
 
 <div class="stats-grid mt-2">
   <div class="stat-card">
-    <div class="stat-number" style="background:linear-gradient(135deg,#2563EB,#60A5FA);"><100ms</div>
+    <div class="stat-number" style="background:linear-gradient(135deg,#2563EB,#60A5FA);">&lt;100ms</div>
     <div class="stat-label">Search Latency</div>
   </div>
   <div class="stat-card">

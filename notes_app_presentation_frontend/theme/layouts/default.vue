@@ -1,10 +1,8 @@
 <template>
-  <div class="ocean-default">
-    <Transition name="fade">
-      <div>
-        <slot />
-      </div>
-    </Transition>
+  <div class="ocean-default fade-wrap">
+    <div class="fade-slot">
+      <slot />
+    </div>
   </div>
 </template>
 
@@ -12,18 +10,11 @@
 // PUBLIC_INTERFACE
 /**
  * Default layout wrapper for Slides with Ocean Professional styling.
- * Provides a simple fade transition between slides.
+ * Uses CSS-only transitions to avoid runtime component registration issues.
  */
 </script>
 
 <style scoped>
-.fade-enter-active, .fade-leave-active {
-  transition: opacity 300ms ease, transform 300ms ease;
-}
-.fade-enter-from, .fade-leave-to {
-  opacity: 0;
-  transform: translateY(6px);
-}
 .ocean-default {
   padding: 24px;
 }
@@ -31,5 +22,15 @@
   .ocean-default {
     padding: 16px;
   }
+}
+
+/* Minimal fade utility to avoid importing Transition component */
+.fade-wrap .fade-slot {
+  transition: opacity 300ms ease, transform 300ms ease;
+}
+.slidev-page.enter-from .fade-slot,
+.slidev-page.leave-to .fade-slot {
+  opacity: 0;
+  transform: translateY(6px);
 }
 </style>
